@@ -1,0 +1,45 @@
+.top ul, li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.menubar ul, li{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+.menubar li.li-one:hover{
+    background-color: gray;
+}
+.menubar li.li-two:hover{
+    background-color: rgb(255, 4, 4);
+}
+.menubar li.li-three:hover{
+    background-color: rgb(255, 106, 0);
+}
+.menubar li.li-four:hover{
+    background-color: rgb(255, 251, 0);
+}
+.menubar li.li-five:hover{
+    background-color: rgb(0, 155, 16);
+}
+.menubar li.li-six:hover{
+    background-color: rgb(11, 105, 255);
+}
+.menubar li.li-seven:hover{
+    background-color: rgb(20, 0, 100);
+}
+.menubar li.li-two, li.li-three, li.li-four, li.li-five, li.li-six{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.body-cardone{
+    background-color: rgb(48, 48, 48);
+    width: fit-content;
+    color: white;
+    border-radius: 8px;
+}
+.body-cardone img{
+    width: 100%;
+}
