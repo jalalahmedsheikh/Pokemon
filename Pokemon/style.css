@@ -34,12 +34,54 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.body-cardone{
+.body div.body-cardone h3,p{
+    padding-left: 15px;
+}
+.body div.body-cardone{
     background-color: rgb(48, 48, 48);
+    font-family: "Flexo-Medium",arial,sans-serif;
     width: fit-content;
     color: white;
+    float: left;
+    margin-left: 30%;
     border-radius: 8px;
 }
-.body-cardone img{
+.body div.body-cardone:hover{
+}
+.body div.body-cardone img{
     width: 100%;
+}
+.body div.body-cardtwo{
+    background-color: rgb(148, 80, 148);
+    font-family: "Flexo-Medium",arial,sans-serif;
+    width: 12%;
+    color: white;
+    margin-right: 160px;
+    float: left;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+.body div.body-cardtwo img{
+    width: 100%;
+}
+.body div.body-cardtwo h3{
+    padding-left: 15px;
+}
+.body div.body-cardthree{
+    background-color: rgb(148, 80, 148);
+    font-family: "Flexo-Medium",arial,sans-serif;
+    width: 12%;
+    color: white;
+    margin-right: 160px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+.body div.body-cardthree img{
+    width: 100%;
+}
+.body div.body-cardthree h3{
+    padding-left: 15px;
+    font-family: "Flexo-Medium",arial,sans-serif;
 }
